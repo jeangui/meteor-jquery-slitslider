@@ -3,5 +3,5 @@ Package.describe({
 });
 
 Package.on_use(function(api) {
-  api.add_files(['lib/jquery.slitslider.js','jquery.ba-cond.min.js','modernizr.custom.79639.js'], 'client');
+  api.add_files(['lib/jquery.slitslider.js','lib/jquery.ba-cond.min.js','lib/modernizr.custom.79639.js'], 'client');
 });

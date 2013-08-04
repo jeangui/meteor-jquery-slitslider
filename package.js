@@ -3,5 +3,5 @@ Package.describe({
 });
 
 Package.on_use(function(api) {
-  api.add_files(['timeago/jquery.timeago.js'], 'client');
+  api.add_files(['lib/jquery.slitslider.js','jquery.ba-cond.min.js','modernizr.custom.79639.js'], 'client');
 });
